@@ -88,7 +88,9 @@ const Portfolio: React.FC = () => {
                 <Link href={project.href}>{project.title}</Link>
               </h3>
               <p className="project-tag">{project.tag}</p>
+              <Link href={project.href}><button className='project-btn'>ознакомиться подробнее</button></Link>
             </article>
+            
           ))}
         </div>
       </div>
