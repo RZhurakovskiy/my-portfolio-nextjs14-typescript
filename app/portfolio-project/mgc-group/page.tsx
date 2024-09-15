@@ -1,4 +1,3 @@
-// Создайте файл page.tsx в папке app/codemaster для использования маршрутизации App Router
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
