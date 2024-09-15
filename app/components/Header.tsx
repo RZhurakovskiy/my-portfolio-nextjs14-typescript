@@ -26,7 +26,7 @@ const Header: React.FC = () => (
         </div>
       </div>
     </div>
-    <video className="header-video" autoPlay muted loop>
+    <video className="header-video" autoPlay muted playsInline loop>
       <source type="video/mp4" src="/video/laptop.mp4" />
     </video>
   </header>
