@@ -9,11 +9,6 @@ const Footer: React.FC = () => {
                         © Роман Жураковский <br />
                         Веб-разработчик, создание сайтов г. Нижний Новгород
                     </p>
-                    <p>
-                        <a href="https://webcademy.ru/" target="_blank" rel="noopener noreferrer">
-                            💻 Дизайн макета Webcademy.ru
-                        </a>
-                    </p>
                 </div>
             </div>
         </footer>
