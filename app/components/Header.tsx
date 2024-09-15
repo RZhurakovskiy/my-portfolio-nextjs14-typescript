@@ -19,7 +19,7 @@ const Header: React.FC = () => (
           </p>
           <p className="header-text">
             React.js, Next.js, TypeScript, Vue.js 2 oprions api, Vue.js 3
-            composition api, Laravel, php WordPress
+            composition api, php Laravel, php WordPress, SEO
           </p>
           <div className="header-btns">
             <a href="#portfolio" className="btn">
