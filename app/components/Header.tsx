@@ -18,7 +18,7 @@ const Header: React.FC = () => (
             <br /> создание сайтов, SPA-приложений.
           </p>
           <p className="header-text">
-            Vue.js 2, Vue.js 3, React.js, Next.js, TypeScript, Laravel,
+            React.js, Next.js, TypeScript, Laravel, Vue.js 2 oprions api, Vue.js 3 composition api, 
             WordPress
           </p>
           <div className="header-btns">
