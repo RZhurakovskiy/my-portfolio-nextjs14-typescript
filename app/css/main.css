@@ -32,6 +32,7 @@ body {
     /* background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%); */
     background-color: #000;
     color: #fff;
+    height: 80vh;
 }
 .header .container {
     position: relative;
