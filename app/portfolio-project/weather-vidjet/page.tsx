@@ -23,7 +23,7 @@ const WeatherApp: React.FC = () => {
             </p>
 
             <p className="inner-page-link">
-              Проект доступен по следующему адресу:{" "}
+              Проект доступен по следующему адресу: <br />
               <a
                 href="https://rzhurakovskiy.github.io/weather-app/"
                 target="_blank"

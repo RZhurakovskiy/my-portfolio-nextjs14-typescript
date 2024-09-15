@@ -11,7 +11,7 @@ const DeloteBeauty: React.FC = () => {
           <div className="inner-page-text">
             <p>Проект выполнен с использованием HTML, CSS/SCSS и JavaScript</p>
             <p className="inner-page-link">
-              Проект доступен по следующему адресу:{" "}
+              Проект доступен по следующему адресу: <br />
               <a
                 href="https://rzhurakovskiy.github.io/delote-beauty/"
                 target="_blank"

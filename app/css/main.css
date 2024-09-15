@@ -255,13 +255,18 @@ body {
 }
 
 .inner-page-link {
-    color: #000;
+    color: #000000;
 }
 
 .inner-page-link a {
-    color: #000;
-    text-decoration: underline;
+    color: #007aff;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
 }
+
 
 .inner-page-img {
     display: block;
@@ -303,12 +308,12 @@ body {
 }
 
 .tab.active {
-    background-color: #007aff;
+    background-color: #1E1E1E;
     color: #f0f0f0;
 }
 
 .tab:hover {
-    background-color: #419dff;
+    background-color: #1E1E1E;
     color: #f0f0f0;
 }
 

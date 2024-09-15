@@ -18,7 +18,7 @@ const MgcGroup: React.FC = () => {
             </p>
 
             <p className="inner-page-link">
-              Проект доступен по следующему адресу:{" "}
+              Проект доступен по следующему адресу: <br />
               <a
                 href="https://mgcgroup.ru/"
                 target="_blank"

@@ -13,7 +13,7 @@ const ImmoExpert: React.FC = () => {
           <div className="inner-page-text">
             <p>Проект выполнен на Vue.js 3 + TypeScript</p>
             <p className="inner-page-link">
-              Проект доступен по следующему адресу:{" "}
+              Проект доступен по следующему адресу: <br />
               <a
                 href="https://rzhurakovskiy.github.io/immo-expert-app/"
                 target="_blank"
