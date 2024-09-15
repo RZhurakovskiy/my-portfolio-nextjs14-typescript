@@ -32,6 +32,13 @@ const projectData: Project[] = [
     imgAlt: "Сайт салона красоты",
     title: "Сайт салона красоты",
     tag: "Сайт"
+  },
+  {
+    href: "/portfolio-project/weather-vidjet",
+    imgSrc: "/img/portfolio/weatherapp-project.jpg",
+    imgAlt: "Виджет прогноза погоды в рамке телефона",
+    title: "Виджет прогноза погоды в рамке телефона",
+    tag: "SPA приложение"
   }
 ];
 

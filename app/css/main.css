@@ -391,4 +391,7 @@ body {
   }
   
   
-  
+  .warning-message {
+    color: #f80000;
+    font-size: 14px;
+  }
