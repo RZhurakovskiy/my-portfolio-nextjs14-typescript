@@ -18,8 +18,8 @@ const Header: React.FC = () => (
             <br /> создание сайтов, SPA-приложений.
           </p>
           <p className="header-text">
-            React.js, Next.js, TypeScript, Laravel, Vue.js 2 oprions api, Vue.js 3 composition api, 
-            WordPress
+            React.js, Next.js, TypeScript, Vue.js 2 oprions api, Vue.js 3
+            composition api, Laravel, php WordPress
           </p>
           <div className="header-btns">
             <a href="#portfolio" className="btn">
