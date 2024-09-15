@@ -10,10 +10,10 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
         host: 'smtp.yandex.ru',
         port: 465,
-        secure: true, // true для порта 465, false для 587
+        secure: true,
         auth: {
             user: 'rzhurakovskiy.webdev@yandex.ru',
-            pass: 'dmgumtbyewazagnu',  // Убедитесь, что это действительно пароль приложения
+            pass: 'dmgumtbyewazagnu',
         },
         logger: true,
         debug: true,
