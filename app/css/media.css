@@ -1,0 +1,159 @@
+@media (max-width: 1080px) {
+
+    .header-row {
+        column-gap: 30px;
+    }
+
+    .header-img {
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-text {
+        font-size: 22px;
+    }
+
+    .portfolio-title {
+        font-size: 42px;
+    }
+
+    .contacts-title {
+        font-size: 42px;
+    }
+
+    /* Inner Page */
+    .inner-page-title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        padding: 20px 0 40px;
+        border-bottom-right-radius: 60px;
+    }
+
+    .header-video {
+        border-bottom-right-radius: 60px;
+    }
+
+    .header-row {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+    }
+
+    .header-img {
+        max-width: 100%;
+        width: auto;
+        border-radius: 30px;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    .header-text {
+        font-size: 18px;
+    }
+
+    /* BTNS */
+
+    .btn,
+    .btn-outline {
+        height: 42px;
+        padding: 12px 15px 0;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding: 40px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .projects {
+        row-gap: 30px;
+    }
+
+    .project-img {
+        margin-bottom: 20px;
+        border-radius: 14px;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    /* Contacts */
+
+    .contacts {
+        padding: 40px 0;
+        border-top-left-radius: 60px;
+    }
+
+    .contacts-title {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .messangers {
+        gap: 20px
+    }
+
+    .messanger {
+        padding: 32px 20px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+    /* FOOTER */
+
+    .footer-inner {
+        font-size: 12px;
+    }
+
+    /* INNER PAGE */
+
+
+    .inner-page {
+        padding: 40px 0;
+    }
+
+    .inner-page-title {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .inner-page-text {
+        margin-bottom: 20px;
+    }
+
+    .inner-page-text p+p {
+        margin-top: 20px;
+    }
+
+    .inner-page-img {
+        margin-bottom: 20px;
+    }
+
+    .inner-page-backlink {
+        padding: 20px;
+    }
+
+    /* Адапатация табов */
+    .tabs {
+        margin-top: -10px;
+    }
+    .tab {
+        font-size: 10px;
+    }
+}
