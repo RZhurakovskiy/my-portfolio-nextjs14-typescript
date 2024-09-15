@@ -4,7 +4,7 @@ export async function POST(req: Request) {
     const { name, email, message } = await req.json();
 
     if (!name || !email || !message) {
-        return new Response('Отсутствуют необходимые данные', { status: 400 });
+        return new Response('Отсутствуют необходимые данные', { status: 400 }); 
     }
 
     const transporter = nodemailer.createTransport({
@@ -20,17 +20,18 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-        from: 'rzhurakovskiy.webdev@yandex.ru', // Убедитесь, что это адрес вашего почтового ящика
+        from: 'rzhurakovskiy.webdev@yandex.ru',
         to: 'rzhurakovskiy.webdev@yandex.ru',
-        subject: `Сообщение от ${name}`, // Исправленный синтаксис для шаблонной строки
+        subject: `Сообщение от ${name}`,
         text: message,
     };
 
     try {
         await transporter.sendMail(mailOptions);
         return new Response('Сообщение отправлено', { status: 200 });
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error('Ошибка при отправке почты:', error);
-        return new Response(`Ошибка при отправке сообщения: ${error.message}`, { status: 500 });
+        const errorMessage = error instanceof Error ? error.message : 'Неизвестная ошибка';
+        return new Response(`Ошибка при отправке сообщения: ${errorMessage}`, { status: 500 });
     }
 }
