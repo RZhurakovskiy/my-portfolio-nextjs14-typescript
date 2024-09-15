@@ -4,6 +4,8 @@ import "./css/reset.css";
 import "./css/main.css";
 import "./css/media.css";
 
+import Preloader from "./components/Preloader";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -28,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Preloader />
         {children}
       </body>
     </html>
