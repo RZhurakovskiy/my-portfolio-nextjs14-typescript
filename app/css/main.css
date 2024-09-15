@@ -396,8 +396,8 @@ body {
     font-size: 14px;
   }
   .project-btn {
-    background-color: #252525;
-    padding: 8px 10px;
+    background-color: #000;
+    border-radius: 8px;
     color: #fff;
     margin-top: 20px;
   }
