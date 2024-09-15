@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/yandex-metrika-tag": "^2.0.7",
     "axios": "^1.7.7",
     "next": "14.2.11",
     "nodemailer": "^6.9.15",
