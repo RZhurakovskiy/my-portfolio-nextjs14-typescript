@@ -48,7 +48,9 @@
         align-items: flex-start;
     }
 
-  
+    .header-img {
+        width: 220px;
+    }
 
     .header-title {
         font-size: 32px;
@@ -161,10 +163,7 @@
     }
 }
 
-@media(max-width: 360px) {
-    .header-img {
-        display: none;
-    }
+@media(max-width: 420px) {
     .tab {
       
         padding: 3px 7px;
