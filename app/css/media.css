@@ -48,9 +48,7 @@
         align-items: flex-start;
     }
 
-    .header-img {
-        width: 300px;
-    }
+   
 
     .header-title {
         font-size: 32px;
@@ -159,6 +157,9 @@
 }
 @media (max-width: 500px) {
 
+    .header-img {
+        width: 300px;
+    }
     .form-container {
         width: 90%;
     }
