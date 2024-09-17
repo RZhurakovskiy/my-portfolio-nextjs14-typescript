@@ -157,9 +157,7 @@
 }
 @media (max-width: 500px) {
 
-    .header-img {
-        width: 300px;
-    }
+   
     .form-container {
         width: 90%;
     }
@@ -167,7 +165,8 @@
 
 @media(max-width: 420px) {
     .header-img {
-        width: 150px;
+        max-width: 300px;
+        width: 100%;
     }
     .header-title {
         font-size: 24px;
