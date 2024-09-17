@@ -165,8 +165,13 @@
 
 @media(max-width: 420px) {
     .header-img {
-        max-width: 300px;
-        width: 100%;
+        width: 300px;
+    }
+
+}
+@media(max-width: 400px) {
+    .header-img {
+        width: 150px;
     }
     .header-title {
         font-size: 24px;
