@@ -163,13 +163,13 @@
     }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 400px) {
     .header-img {
         width: 300px;
     }
 
 }
-@media(max-width: 400px) {
+@media(max-width: 360px) {
     .header-img {
         width: 150px;
     }
