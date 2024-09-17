@@ -158,6 +158,13 @@
     }
 }
 @media (max-width: 500px) {
+
+    .form-container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 420px) {
     .header-title {
         font-size: 24px;
     }
@@ -169,12 +176,6 @@
         height: 30px;
         padding: 7px 15px 0;
     }
-    .form-container {
-        width: 90%;
-    }
-}
-
-@media(max-width: 420px) {
     .tab {
       
         padding: 3px 7px;
