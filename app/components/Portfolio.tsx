@@ -16,8 +16,15 @@ const projectData: Project[] = [
     href: "/portfolio-project/mgc-group",
     imgSrc: "/img/portfolio/mgcgroup-project.jpg",
     imgAlt: "Посадочная страница выставки промышленного дизайна в Москве",
-    title: "Посадочная страница выставки промышленного дизайна в Москве",
+    title: "Коммерческий проект. Посадочная страница выставки промышленного дизайна в Москве",
     tag: "Сайт"
+  },
+  {
+    href: "/portfolio-project/php-media-player",
+    imgSrc: "/img/portfolio/phpmediaplayer-project.jpg",
+    imgAlt: "Веб - сервис для удаленной загрузки и проигрывания медиафайлов",
+    title: "Коммерческий проект. Веб - сервис для удаленной загрузки и проигрывания медиафайлов",
+    tag: "PHP"
   },
   {
     href: "/portfolio-project/immo-expert",
@@ -42,7 +49,7 @@ const projectData: Project[] = [
   }
 ];
 
-const tags = ["Все", "SPA приложение", "Сайт"];
+const tags = ["Все", "SPA приложение", "Сайт", "PHP"];
 
 const Portfolio: React.FC = () => {
   const [selectedTag, setSelectedTag] = useState<string>("Все");

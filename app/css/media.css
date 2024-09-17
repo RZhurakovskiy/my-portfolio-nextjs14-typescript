@@ -49,8 +49,7 @@
     }
 
     .header-img {
-        max-width: 100%;
-        width: auto;
+        width: 350px;
         border-radius: 30px;
     }
 
@@ -152,9 +151,11 @@
     /* Адапатация табов */
     .tabs {
         margin-top: -10px;
+        
     }
     .tab {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 5px 10px;
     }
 }
 @media (max-width: 500px) {
