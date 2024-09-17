@@ -49,7 +49,9 @@
     }
 
     .header-img {
-        width: 220px;
+        max-width: 100%;
+        width: auto;
+        border-radius: 30px;
     }
 
     .header-title {
@@ -150,35 +152,13 @@
     /* Адапатация табов */
     .tabs {
         margin-top: -10px;
-        
     }
     .tab {
-        font-size: 14px;
-        padding: 5px 10px;
+        font-size: 10px;
     }
 }
 @media (max-width: 500px) {
-
     .form-container {
         width: 90%;
-    }
-}
-
-@media(max-width: 420px) {
-    .header-title {
-        font-size: 24px;
-    }
-    .header-text {
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
-    .btn, .btn-outline {
-        height: 30px;
-        padding: 7px 15px 0;
-    }
-    .tab {
-      
-        padding: 3px 7px;
-        font-size: 12px;
     }
 }
