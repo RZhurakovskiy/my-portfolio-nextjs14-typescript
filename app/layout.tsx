@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Preloader from './components/Preloader';
 import Head from 'next/head';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(false);
@@ -17,7 +19,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     router.events.on('routeChangeComplete', handleComplete);
     router.events.on('routeChangeError', handleComplete);
 
-    // Чистим события при размонтировании
     return () => {
       router.events.off('routeChangeStart', handleStart);
       router.events.off('routeChangeComplete', handleComplete);
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="robots" content="index, follow" />
       </Head>
       <body suppressHydrationWarning={true}>
-        {isLoading && <Preloader />} {/* Отображение Preloader во время загрузки */}
+        {isLoading && <Preloader />}
         {children}
         <ToastContainer />
       </body>
