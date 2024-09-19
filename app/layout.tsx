@@ -1,43 +1,65 @@
-"use client";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import "./css/reset.css";
+import "./css/main.css";
+import "./css/media.css";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
-import { useState, useEffect } from 'react';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import Preloader from './components/Preloader';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Preloader from "./components/Preloader";
+import Head from "next/head";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const [isLoading, setIsLoading] = useState(false);
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const router = useRouter();
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  weight: "100 900",
+});
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
 
-  useEffect(() => {
-    const handleRouteChangeStart = () => setIsLoading(true);
-    const handleRouteChangeComplete = () => setIsLoading(false);
+export const metadata: Metadata = {
+  title: "Roman Zhurakovskiy portfolio",
+  description: "Roman Zhurakovskiy by create next app",
+  openGraph: {
+    title: "Roman Zhurakovskiy portfolio",
+    description: "Roman Zhurakovskiy by create next app",
+    url: "https://romanzhurakovskiy.vercel.app/",
+    type: "website",
+  },
+};
 
-    router.events.on('routeChangeStart', handleRouteChangeStart);
-    router.events.on('routeChangeComplete', handleRouteChangeComplete);
-    router.events.on('routeChangeError', handleRouteChangeComplete);
-
-    return () => {
-      router.events.off('routeChangeStart', handleRouteChangeStart);
-      router.events.off('routeChangeComplete', handleRouteChangeComplete);
-      router.events.off('routeChangeError', handleRouteChangeComplete);
-    };
-  }, [pathname, searchParams, router.events]);
-
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="ru">
-      <head>
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
-      </head>
-      <body suppressHydrationWarning={true}>
-        {isLoading && <Preloader />}
-        {children}
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Roman Zhurakovskiy",
+            "url": "https://romanzhurakovskiy.vercel.app/"
+          }`}
+        </script>
+
+      
+      </Head>
+      <body
+        suppressHydrationWarning={true}
+        className={${geistSans.variable} ${geistMono.variable}}
+      >
+        <Preloader />
         <ToastContainer />
+        {children}
       </body>
     </html>
   );
