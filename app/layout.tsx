@@ -5,8 +5,6 @@ import "./css/main.css";
 import "./css/media.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import { Suspense } from "react";
-import { Metrika } from "./components/metrika";
 import Preloader from "./components/Preloader";
 import Head from "next/head";
 
@@ -61,9 +59,6 @@ export default function RootLayout({
         <Preloader />
         <ToastContainer />
         <main>{children}</main>
-        <Suspense>
-          <Metrika />
-        </Suspense>
       </body>
     </html>
   );
