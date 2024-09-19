@@ -55,7 +55,7 @@ export default function RootLayout({
       </Head>
       <body
         suppressHydrationWarning={true}
-        className={${geistSans.variable} ${geistMono.variable}}
+        className={`${geistSans.variable} ${geistMono.variable}`}
       >
         <Preloader />
         <ToastContainer />
