@@ -109,6 +109,12 @@ body {
 .about-me {
     padding-top: 40px;
 }
+.about-title {
+    margin-bottom: 50px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
 .portfolio-text {
     max-width: 600px;
     width: 100%;
