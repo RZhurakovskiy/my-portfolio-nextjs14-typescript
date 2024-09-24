@@ -109,7 +109,12 @@ body {
 .about-me {
     padding-top: 40px;
 }
-    
+.portfolio-text {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 /* Portfolio */
 
 .portfolio {
