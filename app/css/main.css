@@ -105,6 +105,11 @@ body {
     border-color: #1782CF;
 }
 
+/* About */
+.about-me {
+    padding-top: 40px;
+}
+    
 /* Portfolio */
 
 .portfolio {
