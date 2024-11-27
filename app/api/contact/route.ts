@@ -23,7 +23,7 @@ export async function POST(req: Request) {
         from: 'Сообщение с сайта',
         to: 'rzhurakovskiy.webdev@yandex.ru',
         subject: `Сообщение от ${name}`,
-        email: email,
+        email: `Почта отправителя ${email}`,
         text: message,
     };
 
