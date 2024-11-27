@@ -20,7 +20,7 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-        from: 'rzhurakovskiy.webdev@yandex.ru',
+        from: email,
         to: 'rzhurakovskiy.webdev@yandex.ru',
         subject: `Сообщение от ${name}`,
         text: message,
