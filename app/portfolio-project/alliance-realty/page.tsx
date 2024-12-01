@@ -2,22 +2,33 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DeloteBeauty: React.FC = () => {
+const AllianceRealty: React.FC = () => {
   return (
     <article className="inner-page">
       <div className="container">
         <div className="inner-page-details">
-          <h1 className="inner-page-title">Сайт салона красоты DeloteBeauty</h1>
+          <h1 className="inner-page-title">
+            Лендинг агентства недвижимости Alliance Realty. Собственный дизайн
+          </h1>
           <div className="inner-page-text">
-            <p>Проект выполнен с использованием HTML, CSS/SCSS и JavaScript</p>
+            <p>
+              Проект выполнен с использованием HTML, CSS/SCSS и JavaScript, с
+              использованием сборки gulp
+            </p>
+            <p>
+              В проекте реализовано модальное окно с формой обратоной связи,
+              отображение дареса ч=на карте через Yandex Api, слайдеры с
+              описанием недвижимости
+            </p>
+
             <p className="inner-page-link">
               Проект доступен по следующему адресу: <br />
               <Link
-                href="https://rzhurakovskiy.github.io/delote-beauty/"
+                href="https://alliance-realty.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                rzhurakovskiy.github.io/delote-beauty
+                alliance-realty.vercel.app/
               </Link>
             </p>
           </div>
@@ -25,7 +36,7 @@ const DeloteBeauty: React.FC = () => {
 
         <Image
           className="inner-page-img"
-          src="/img/portfolio/delotebeaty-project.jpg"
+          src="/img/portfolio/alliancerealty-project.jpg"
           width={800}
           height={600}
           alt="Изображение сайта на разных устройствах"
@@ -45,4 +56,4 @@ const DeloteBeauty: React.FC = () => {
   );
 };
 
-export default DeloteBeauty;
+export default AllianceRealty;

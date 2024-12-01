@@ -13,6 +13,13 @@ interface Project {
 
 const projectData: Project[] = [
   {
+    href: "/portfolio-project/alliance-realty",
+    imgSrc: "/img/portfolio/alliancerealty-project.jpg",
+    imgAlt: "Лендиг агенства недвижимости Alliance Realty",
+    title: "Лендиг агенства недвижимости Alliance Realty. Собственный дизайн",
+    tag: "Сайт"
+  },
+  {
     href: "/portfolio-project/mgc-group",
     imgSrc: "/img/portfolio/mgcgroup-project.jpg",
     imgAlt: "Посадочная страница выставки промышленного дизайна в Москве",
