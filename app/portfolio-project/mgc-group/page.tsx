@@ -12,8 +12,7 @@ const MgcGroup: React.FC = () => {
           </h1>
           <div className="inner-page-text">
             <p>
-              Проект выполнен с использованием HTML, CSS/SCSS и JavaScript с
-              использованием сборки gulp
+              Проект выполнен с использованием HTML, CSS/SCSS и JavaScript, таск менеджера gulp
             </p>
 
             <p className="inner-page-link">
