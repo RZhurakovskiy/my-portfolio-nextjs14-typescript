@@ -15,8 +15,8 @@ const projectData: Project[] = [
   {
     href: "/portfolio-project/mgc-group",
     imgSrc: "/img/portfolio/mgc-landing-project.jpg",
-    imgAlt: "Посадочная страница выставки промышленного дизайна в Москве",
-    title: "Коммерческий проект. Посадочная страница выставки промышленного дизайна в Москве",
+    imgAlt: "Оффициальный сайт холдинга MGC group",
+    title: "Коммерческий проект. Оффициальный сайт холдинга MGC group",
     tag: "Сайт"
   },
   {
