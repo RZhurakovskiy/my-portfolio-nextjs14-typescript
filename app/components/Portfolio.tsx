@@ -13,6 +13,13 @@ interface Project {
 
 const projectData: Project[] = [
   {
+    href: "/portfolio-project/mgc-group",
+    imgSrc: "/img/portfolio/mgc-landing-project.jpg",
+    imgAlt: "Посадочная страница выставки промышленного дизайна в Москве",
+    title: "Коммерческий проект. Посадочная страница выставки промышленного дизайна в Москве",
+    tag: "Сайт"
+  },
+  {
     href: "/portfolio-project/hr-automotive",
     imgSrc: "/img/portfolio/hr-automotive.jpg",
     imgAlt: "Сайт вакансий Борского стекольного завода",
@@ -24,13 +31,6 @@ const projectData: Project[] = [
     imgSrc: "/img/portfolio/alliancerealty-project.jpg",
     imgAlt: "Лендиг агенства недвижимости Alliance Realty",
     title: "Лендиг агенства недвижимости Alliance Realty. Собственный дизайн",
-    tag: "Сайт"
-  },
-  {
-    href: "/portfolio-project/mgc-group",
-    imgSrc: "/img/portfolio/mgcgroup-project.jpg",
-    imgAlt: "Посадочная страница выставки промышленного дизайна в Москве",
-    title: "Коммерческий проект. Посадочная страница выставки промышленного дизайна в Москве",
     tag: "Сайт"
   },
   {

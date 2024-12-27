@@ -12,7 +12,7 @@ const MgcGroup: React.FC = () => {
           </h1>
           <div className="inner-page-text">
             <p>
-              Проект выполнен с использованием HTML, CSS/SCSS и JavaScript, таск менеджера gulp
+              Проект выполнен с использованием HTML, CSS/SCSS и JavaScript.
             </p>
 
             <p className="inner-page-link">
@@ -30,7 +30,7 @@ const MgcGroup: React.FC = () => {
 
         <Image
           className="inner-page-img"
-          src="/img/portfolio/mgcgroup-project.jpg"
+          src="/img/portfolio/mgc-landing-project.jpg"
           alt="Изображение сайта на различных устройствах"
           width={800}
           height={600}
